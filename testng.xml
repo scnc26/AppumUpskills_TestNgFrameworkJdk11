@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="generalstore.utils.Listener"/>
+    </listeners>
+    <test name="General Store Smoke Tests">
+<packages>
+    <package name="generalstore.tests"/>
+</packages>
+    </test>
+</suite>
+
+        <!-- creat testngxml pluging indir reload yap test arasına package kosmak icin icerisini sildik package copy referansını aldık slash
+        kabul etmiyor  nokta kabul ediyor xml dosyasını proje seviyesinde olusyurduk reload dedik creat xml gorundu
+        sag tus run ile package deki butun testleri calistirdik include name =dahil et
+        exclude name =haric tut, listener extent report dosyalarını calistirdik-->

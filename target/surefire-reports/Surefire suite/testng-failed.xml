@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="generalstore.tests.TC01_PozitifTest">
+        <methods>
+          <include name="tc01PozitiveTest"/>
+        </methods>
+      </class> <!-- generalstore.tests.TC01_PozitifTest -->
+      <class name="generalstore.tests.TC02_NegatifTest">
+        <methods>
+          <include name="tc02NegativeTest"/>
+        </methods>
+      </class> <!-- generalstore.tests.TC02_NegatifTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
